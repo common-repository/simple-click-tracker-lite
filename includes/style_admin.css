@@ -1,0 +1,53 @@
+@import 'style_public.css';
+
+#sct_default_layout {
+	width: 83%;
+}
+
+#sct_default_layout_inner {
+	width: 91%;
+}
+
+.sct_nav_list li a {
+	text-decoration: none;
+	background-color: #DDD;
+	border-bottom: 1px solid #AAA;
+}
+
+.sct_nav_list li.selected a {
+	background-color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+
+#sct_default_layout_inner {
+	padding: 15px;
+	background-color: #FFF;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	float: left;
+	margin-top: -1px;
+}
+.ads_panel{
+    min-width: 200px;
+    max-width: 300px;
+    background-color: #FFF;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    margin-left: 12px;
+}
+.sct_notice{
+        background-color: #0085ba;
+    color: #FFF;
+    font-weight: bold;
+    margin: 10px !important;
+    padding: 10px !important;
+    border-radius: 4px;
+}
+.sct_notice a{
+        color: #90CAF9;
+    font-weight: bold;
+    text-decoration: underline !important;
+}

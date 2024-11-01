@@ -1,0 +1,230 @@
+
+/* NAV LIST **********************************************/
+
+.sct_nav_list {
+	margin: 0 !important;
+	padding: 10px 0 0 0 !important;
+	background-color: #EEE;
+}
+
+.sct_nav_list ul {
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none;
+}
+
+.sct_nav_list li {
+	margin: 0 0 0 5px !important;
+	padding: 0 !important;
+	float: left;
+	list-style: none !important;
+}
+
+.sct_nav_list li a {
+	margin: 0;
+	display: block;
+	padding: 2px 10px;
+	background-color: #FFF;
+	border-top: 1px solid #AAA;
+	border-left: 1px solid #AAA;
+	border-right: 1px solid #AAA;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.sct_nav_list li a:hover {
+	background-color: #EEE;
+	text-decoration: none;
+}
+
+#sct_nav_user_select {
+	margin: 0;
+	padding: 1px;
+	width: auto;
+}
+
+#sct_nav_user_select option {
+	margin: 0;
+	padding: 0;
+}
+
+/* BUTTONS ***********************************************/
+
+.sct_button_bar {
+	margin: 10px 0;
+}
+
+#sct_bttn_clear_search,
+#sct_default_layout button,
+.sct_button_bar .button,
+.sct_button_bar .sct_button {
+	cursor: pointer;
+	color: #FFF;
+	background-color: #F93;
+	height: 30px;
+	line-height: 22px;
+	margin: 0;
+	padding: 4px 15px;
+}
+
+.sct_button_bar input {
+	color: #000;
+	border: 1px solid #DDD;
+	background-color: #EEE;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.sct_button_bar input:hover {
+	color: #000;
+	border: 1px solid #DDD;
+	background-color: #CCC;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+/* LINK LIST *********************************************/
+
+#sct_link_list {
+	min-height: 350px;
+	border: 1px solid #888;
+}
+
+/* LIST TABLE ********************************************/
+
+.sct_list_table {
+	width: 100%;
+	border: none !important;
+	text-align: left;
+	background-color: #CCC;
+}
+
+.sct_list_table tr {
+	border: none !important;
+}
+
+.sct_list_table th {
+	color: #FFF;
+	padding: 3px 5px;
+	font-size: 10px;
+	border: none !important;
+	background-color: #069;
+	vertical-align: bottom;
+}
+
+.sct_list_table td {
+	padding: 5px 10px;
+	background-color: #FFF;
+	border-bottom: 1px solid #DDD;
+	background: #FFF url('images/table_row_bg.gif') repeat-x;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.sct_list_table td.empty {
+	border: none !important;
+	height: 300px;
+	line-height: 300px;
+	text-align: center;
+}
+
+.sct_list_table td input {
+	margin: 0;
+	padding: 1px;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.sct_error_list li {
+	color: #900;
+}
+
+#sct_nav_user {
+	text-align: right;
+	padding: 0 0 3px 0;
+}
+
+/* FORM TABLE ********************************************/
+
+.sct_form_table {
+	border: none;
+	margin: 0;
+}
+
+.sct_form_table tbody {
+	border: none;
+}
+
+.sct_form_table th {
+	border: none;
+	font-size: 14px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.sct_form_table td {
+	border: none;
+	padding: 5px;
+}
+
+#sct_search,
+.sct_form_table td input {
+	margin: 0;
+	padding: 2px;
+}
+
+.sct_form_table td select {
+	margin: 0;
+	padding: 2px;
+}
+
+.sct_form_table td textarea {
+	margin: 0;
+	padding: 2px;
+}
+
+#sct_filter_form select {
+	margin: 0;
+	padding: 2px;
+}
+
+#sct_default_layout #sct_filter_form,
+#sct_default_layout #sct_filter_form table {
+	border: none;
+}
+
+.sct_list_table th {
+	cursor: pointer;
+}
+
+div#sct_saved {
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid #EEE;
+	background-color: #0D3;
+	border-radius: 5px;
+}
+
+.ui-autocomplete {
+	border: 1px solid #BBB !important;
+}
+
+.ui-autocomplete .ui-menu-item {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.ui-autocomplete .ui-menu-item a {
+	margin: 0;
+	padding: 3px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#sct_default_layout_inner {
+	clear: both;
+}
